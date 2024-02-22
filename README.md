@@ -17,18 +17,22 @@ JavaSpringFileUpload is a Spring Boot application designed to handle large file 
 
 ### Running the Application
 1. Clone the repository:
-   ```
-   git clone https://github.com/your-username/JavaSpringFileUpload.git
-   ```
+```
+git clone https://github.com/your-username/JavaSpringFileUpload.git
+```
    
-Navigate to the project directory:
+2. Navigate to the project directory:
 ```
 cd ChunkyUploader
 ```
 
-Build the project using Maven:
+3. Build the project using Maven:
 ```
 mvn clean install
+```
+4. Run the application:
+```
+java -jar target/chunkyuploader-0.0.1-SNAPSHOT.jar
 ```
 
 ## Usage
